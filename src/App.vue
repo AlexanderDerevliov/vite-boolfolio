@@ -1,11 +1,13 @@
 <script>
+import AppMain from './components/AppMain.vue';
+
 
 export default{
-  data() {
-    return{
-
-    }
-  }
+    data() {
+        return {};
+    },
+    components: { AppMain }
+   
 }
 
 
@@ -14,6 +16,9 @@ export default{
 
 <template>
 <h2>ciao vite</h2>
+
+<AppMain />
+
 </template>
 
 
