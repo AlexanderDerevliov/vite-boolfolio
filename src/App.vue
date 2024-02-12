@@ -15,7 +15,7 @@ export default{
 
 
 <template>
-<h2>ciao vite</h2>
+
 
 <AppMain />
 
